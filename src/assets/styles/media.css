@@ -5,6 +5,8 @@
     padding: 75px !important;
   }
 
+  /* Header Component */
+
   .header {
     margin: 0 0 20px;
     display: -webkit-box;
@@ -43,8 +45,27 @@
     padding: 0;
   }
 
+  /* Footer Component */
+
   .footer {
     margin: 90px 0 0;
     padding: 0;
+  }
+
+  /* Item Component */
+
+  .item {
+    padding-bottom: 3.5%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 31%;
+    flex: 0 1 31%;
+  }
+  .item:nth-child(2n) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .item:nth-child(3n-1) {
+    padding-right: 3.5%;
+    padding-left: 3.5%;
   }
 }

@@ -1,0 +1,16 @@
+.item {
+  padding-bottom: 4%;
+  min-height: 200px;
+  flex: 0 1 48%;
+  align-items: stretch;
+}
+.item:nth-child(2n) {
+  padding-left: 4%;
+  padding-right: 0;
+}
+
+.content {
+  height: 100%;
+  cursor: pointer;
+  background: #eee;
+}
