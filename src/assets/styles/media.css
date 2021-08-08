@@ -42,4 +42,9 @@
     border: none;
     padding: 0;
   }
+
+  .footer {
+    margin: 90px 0 0;
+    padding: 0;
+  }
 }

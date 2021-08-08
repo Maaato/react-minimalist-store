@@ -1,0 +1,16 @@
+.footer {
+  padding: 80px 0 20px 0;
+}
+
+.has-link {
+  color: rgba(34, 34, 34, 0.55);
+}
+
+.has-link > a {
+  text-decoration: none;
+  color: #222;
+  border-bottom: 1px dotted #222;
+}
+.has-link > a:hover {
+  border-bottom: 1px solid #222;
+}
